@@ -4,9 +4,9 @@ let cols, rows;
 let resolution = 40;
 
 function setup() {
-    createCanvas(innerWidth, innerHeight);
+  createCanvas(innerWidth, innerHeight);
 
-  colorMode(HSB, 360, 100, 100, 100);
+  colorMode(HSB, 320, 100, 240, 150);
   background(0);
   
   cols = floor(width / resolution);
@@ -16,7 +16,7 @@ function setup() {
     flowfield[i] = p5.Vector.random2D();
   }
 
-  for (let i = 0; i < 1500; i++) {
+  for (let i = 0; i < 15000; i++) {
     particles.push(new Particle());
   }
 }
