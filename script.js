@@ -39,6 +39,5 @@ function draw() {
     }
     yoff += 0.1; // maybe byta
   }
-
 }
 //  a bit similar to our project, basic now, took even help from Ai , not finish 
