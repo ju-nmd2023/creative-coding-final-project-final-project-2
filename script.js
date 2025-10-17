@@ -112,9 +112,10 @@ function draw() {
 
 
 function mousePressed() {
+  Tone.start();
   explode = true;
   explodePos = createVector(mouseX, mouseY);
-}
+  }
 
 class Particle {
   constructor() {
